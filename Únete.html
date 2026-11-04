@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Únete | Caída</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Caída</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="como-se-juega.html">Cómo se juega</a></li>
+                <li><a href="cartas.html">Cartas y valores</a></li>
+                <li><a href="cantos.html">Cantos</a></li>
+                <li><a href="unete.html">Únete</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Únete a una partida</h2>
+        <p>Rellena el formulario para apuntarte a la próxima partida de caída.</p>
+
+        <form action="#" method="post">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="experiencia">Experiencia jugando</label>
+            <select id="experiencia" name="experiencia">
+                <option value="principiante">Principiante</option>
+                <option value="intermedio">Intermedio</option>
+                <option value="experto">Experto</option>
+            </select>
+
+            <fieldset>
+                <legend>¿Cómo prefieres jugar?</legend>
+                <label><input type="checkbox" name="modo" value="individual"> Individual</label>
+                <label><input type="checkbox" name="modo" value="parejas"> En parejas</label>
+            </fieldset>
+
+            <label for="comentarios">Comentarios</label>
+            <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+
+            <button type="submit">Apuntarme</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Caída, juego venezolano por Jesanny Barcia</p>
+        <p>Proyecto de HTML y CSS · Tu nombre · 2026</p>
+    </footer>
+</body>
+</html>
