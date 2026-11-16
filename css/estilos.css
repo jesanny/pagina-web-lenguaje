@@ -25,6 +25,19 @@ h2 {
     border-bottom: 2px solid #c9a227;
     padding-bottom: 5px;
 }
+/* Subtítulos */
+h3 {
+    color: #f5f0e1;
+    border-left: 5px solid #c9a227;
+    padding-left: 10px;
+    margin-top: 25px;
+}
+
+h4 {
+    color: #c9a227;
+    font-style: italic;
+    margin-bottom: 5px;
+}
 
 nav ul {
     list-style: none;
@@ -99,6 +112,7 @@ label {
 input[type="text"],
 input[type="email"],
 select,
+
 textarea {
     padding: 8px;
     border: 2px solid #c9a227;
@@ -133,7 +147,7 @@ button:hover {
 }
 
 img {
-    max-width: 100%;
+    max-width: 300px;
     height: auto;
     display: block;
     margin: 20px auto;
@@ -143,6 +157,7 @@ img {
 
 
 }
+
 
 img:hover {
     transform: scale(1.05);
@@ -178,4 +193,39 @@ a {
 /* Filas de la tabla */
 tbody tr:hover {
     background-color: #0f3d25;
+}
+/* Un canto: imagen a la izquierda y explicación a la derecha */
+.canto {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.canto img {
+    max-width: 200px;
+    margin: 0;
+}
+
+.canto p {
+    flex: 1;
+    margin: 0;
+}
+/* Logo de la cabecera */
+.logo {
+    max-width: 120px;
+    margin: 0 auto 10px auto;
+    border: none;
+    background-color: transparent;
+}
+/* Dos imágenes una al lado de la otra */
+.par-imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.par-imagenes img {
+    margin: 10px 0;
 }
