@@ -254,3 +254,6 @@ header {
     background-size: contain;
     background-repeat: repeat-x;
 }
+body.inicio header {
+    background-image: none;
+}
