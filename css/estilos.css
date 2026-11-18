@@ -1,4 +1,3 @@
-
 body {
     background-color: #1b5e3a;
     color: #f5f0e1;
@@ -25,6 +24,7 @@ h2 {
     border-bottom: 2px solid #c9a227;
     padding-bottom: 5px;
 }
+
 /* Subtítulos */
 h3 {
     color: #f5f0e1;
@@ -86,7 +86,8 @@ caption {
     margin-bottom: 8px;
 }
 
-th, td {
+th,
+td {
     border: 1px solid #c9a227;
     padding: 10px;
     text-align: center;
@@ -194,6 +195,7 @@ a {
 tbody tr:hover {
     background-color: #0f3d25;
 }
+
 /* Un canto: imagen a la izquierda y explicación a la derecha */
 .canto {
     display: flex;
@@ -212,6 +214,7 @@ tbody tr:hover {
     flex: 1;
     margin: 0;
 }
+
 /* Logo de la cabecera */
 .logo {
     max-width: 120px;
@@ -219,6 +222,7 @@ tbody tr:hover {
     border: none;
     background-color: transparent;
 }
+
 /* Dos imágenes una al lado de la otra */
 .par-imagenes {
     display: flex;
@@ -228,4 +232,25 @@ tbody tr:hover {
 
 .par-imagenes img {
     margin: 10px 0;
+}
+/* Imagen de fondo del formulario con capa oscura para que se lea */
+form {
+    background-image: linear-gradient(rgba(15, 61, 37, 0.85), rgba(15, 61, 37, 0.85)), url("../img/cartas-espanolas-fondo.jpg");
+    background-size: cover;
+    padding: 20px;
+    border-radius: 10px;
+}
+/* Imagen de fondo del resumen con capa oscura */
+#resumen {
+    background-image: linear-gradient(rgba(15, 61, 37, 0.85), rgba(15, 61, 37, 0.85)), url("../img/cartas-boca-abajo.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* Logo de fondo en la cabecera de todas las páginas */
+header {
+    background-image: url("../img/caida-logo.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    background-repeat: repeat-x;
 }
