@@ -249,11 +249,16 @@ form {
 /* Logo de fondo en la cabecera de todas las páginas */
 header {
     background-image: url("../img/caida-logo.jpg");
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: contain;
     background-repeat: repeat-x;
+    background-position: left center;
+    background-size: auto 150px;
 }
 body.inicio header {
     background-image: none;
+}
+/* Línea separadora entre consejos */
+hr {
+    border: none;
+    border-top: 2px solid #c9a227;
+    margin: 30px 0;
 }
